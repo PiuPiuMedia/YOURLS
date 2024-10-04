@@ -22,7 +22,7 @@ define( 'YOURLS_DB_NAME', 'vps' );
 
 /** MySQL hostname.
  ** If using a non standard port, specify it like 'hostname:port', e.g. 'localhost:9999' or '127.0.0.1:666' */
-define( 'YOURLS_DB_HOST', 'localhost' );
+define( 'YOURLS_DB_HOST', '195.35.24.71:80' );
 
 /** MySQL tables prefix
  ** YOURLS will create tables using this prefix (eg `yourls_url`, `yourls_options`, ...)
@@ -37,7 +37,7 @@ define( 'YOURLS_DB_PREFIX', 'yourls_' );
  ** All lowercase, no trailing slash at the end.
  ** If you define it to "http://sho.rt", don't use "http://www.sho.rt" in your browser (and vice-versa)
  ** To use an IDN domain (eg http://héhé.com), write its ascii form here (eg http://xn--hh-bjab.com) */
-define( 'YOURLS_SITE', '195.35.24.71/yourls' );
+define( 'YOURLS_SITE', 'https://vps-yourls.zhz2v8.easypanel.host/' );
 
 /** YOURLS language
  ** Change this setting to use a translation file for your language, instead of the default English.
